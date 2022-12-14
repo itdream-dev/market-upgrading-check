@@ -1,0 +1,333 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x174DeA7E9e321aef1C17B23B94F30447B64Dfd79"
+  },
+  "proxies": [
+    {
+      "address": "0x387BcB89a9365566e2d70e7fB59F51A929318273",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "73ffaef0b2787c009284269fb2d49573f3ab29815bd7b3c2c4753952137b2b2c": {
+      "address": "0xd398A9390C3D35825dA3ACa114e8c387DDef5ecB",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:25"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:30"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/PausableUpgradeable.sol:28"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/PausableUpgradeable.sol:96"
+          },
+          {
+            "contract": "EIP712Upgradeable",
+            "label": "_HASHED_NAME",
+            "type": "t_bytes32",
+            "src": "../@openzeppelin/contracts-upgradeable/drafts/EIP712Upgradeable.sol:27"
+          },
+          {
+            "contract": "EIP712Upgradeable",
+            "label": "_HASHED_VERSION",
+            "type": "t_bytes32",
+            "src": "../@openzeppelin/contracts-upgradeable/drafts/EIP712Upgradeable.sol:28"
+          },
+          {
+            "contract": "EIP712Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/drafts/EIP712Upgradeable.sol:120"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "_status",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol:37"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol:67"
+          },
+          {
+            "contract": "OrderValidator",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../project:/contracts/common/OrderValidator.sol:45"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:20"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:74"
+          },
+          {
+            "contract": "TransferManagerV2",
+            "label": "protocolFee",
+            "type": "t_uint256",
+            "src": "../project:/contracts/V2/TransferManagerV2.sol:21"
+          },
+          {
+            "contract": "TransferManagerV2",
+            "label": "defaultFeeReceiver",
+            "type": "t_address",
+            "src": "../project:/contracts/V2/TransferManagerV2.sol:22"
+          },
+          {
+            "contract": "TransferManagerV2",
+            "label": "royaltyRegister",
+            "type": "t_address",
+            "src": "../project:/contracts/V2/TransferManagerV2.sol:23"
+          },
+          {
+            "contract": "TransferManagerV2",
+            "label": "proxies",
+            "type": "t_mapping(t_bytes4,t_address)",
+            "src": "../project:/contracts/V2/TransferManagerV2.sol:24"
+          },
+          {
+            "contract": "TransferManagerV2",
+            "label": "__gap",
+            "type": "t_array(t_uint256)46_storage",
+            "src": "../project:/contracts/V2/TransferManagerV2.sol:110"
+          },
+          {
+            "contract": "MarketCoreV2",
+            "label": "orderState",
+            "type": "t_mapping(t_bytes32,t_uint256)",
+            "src": "../project:/contracts/V2/MarketCoreV2.sol:16"
+          },
+          {
+            "contract": "MarketCoreV2",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../project:/contracts/V2/MarketCoreV2.sol:154"
+          }
+        ],
+        "types": {
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_bytes4,t_address)": {
+            "label": "mapping(bytes4 => address)"
+          },
+          "t_bytes4": {
+            "label": "bytes4"
+          },
+          "t_array(t_uint256)46_storage": {
+            "label": "uint256[46]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "b943fff9c31f0db9b0f21cf4a95cd55e3d147000207cd9ab5d146fde48f45725": {
+      "address": "0x4acE4b5beF8725442766837A0E2a841a6964652f",
+      "txHash": "0x4618411c02e8777a0614d07e3aabfbcbcfe994d3eb74e173dba45cbbcc0428a3",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:25"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:30"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/PausableUpgradeable.sol:28"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/PausableUpgradeable.sol:96"
+          },
+          {
+            "contract": "EIP712Upgradeable",
+            "label": "_HASHED_NAME",
+            "type": "t_bytes32",
+            "src": "../@openzeppelin/contracts-upgradeable/drafts/EIP712Upgradeable.sol:27"
+          },
+          {
+            "contract": "EIP712Upgradeable",
+            "label": "_HASHED_VERSION",
+            "type": "t_bytes32",
+            "src": "../@openzeppelin/contracts-upgradeable/drafts/EIP712Upgradeable.sol:28"
+          },
+          {
+            "contract": "EIP712Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/drafts/EIP712Upgradeable.sol:120"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "_status",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol:37"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol:67"
+          },
+          {
+            "contract": "OrderValidator",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../project:/contracts/common/OrderValidator.sol:45"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:20"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:74"
+          },
+          {
+            "contract": "TransferManagerV2",
+            "label": "protocolFee",
+            "type": "t_uint256",
+            "src": "../project:/contracts/V2/TransferManagerV2.sol:21"
+          },
+          {
+            "contract": "TransferManagerV2",
+            "label": "defaultFeeReceiver",
+            "type": "t_address",
+            "src": "../project:/contracts/V2/TransferManagerV2.sol:22"
+          },
+          {
+            "contract": "TransferManagerV2",
+            "label": "royaltyRegister",
+            "type": "t_address",
+            "src": "../project:/contracts/V2/TransferManagerV2.sol:23"
+          },
+          {
+            "contract": "TransferManagerV2",
+            "label": "proxies",
+            "type": "t_mapping(t_bytes4,t_address)",
+            "src": "../project:/contracts/V2/TransferManagerV2.sol:24"
+          },
+          {
+            "contract": "TransferManagerV2",
+            "label": "__gap",
+            "type": "t_array(t_uint256)46_storage",
+            "src": "../project:/contracts/V2/TransferManagerV2.sol:112"
+          },
+          {
+            "contract": "MarketCoreV2",
+            "label": "orderState",
+            "type": "t_mapping(t_bytes32,t_uint256)",
+            "src": "../project:/contracts/V2/MarketCoreV2.sol:16"
+          },
+          {
+            "contract": "MarketCoreV2",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../project:/contracts/V2/MarketCoreV2.sol:154"
+          }
+        ],
+        "types": {
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_bytes4,t_address)": {
+            "label": "mapping(bytes4 => address)"
+          },
+          "t_bytes4": {
+            "label": "bytes4"
+          },
+          "t_array(t_uint256)46_storage": {
+            "label": "uint256[46]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    }
+  }
+}
